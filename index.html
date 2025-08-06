@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="styles/index.css" />
-    
+
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
@@ -16,9 +16,20 @@
     <title>Kingen</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Alou</h1>
+    <div class="flex gap-1">
+      <button class="btn btn-small">Label</button>
+
+      <button class="btn btn-md">Label</button>
+
+      <button class="btn btn-lg">Label</button>
     </div>
-    
+
+    <div class="flex gap-1">
+      <button aria-label="Label" class="btn btn-small"></button>
+
+      <button aria-label="Label" class="btn btn-md"></button>
+
+      <button aria-label="Label" class="btn btn-lg"></button>
+    </div>
   </body>
 </html>
